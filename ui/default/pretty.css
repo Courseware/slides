@@ -1,7 +1,8 @@
 /* Following are the presentation styles -- edit away! */
 
-body {background: #DDD; color: #444; font-size: 110%; font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;}
-:link, :visited {text-decoration: none; color: #666;}
+html { background: #FFF url('/img/bp_logo.png') no-repeat 120% 160% fixed; }
+body {background: transparent; color: #444; font-size: 110%; font-family: "Arial" sans-serif;}
+:link, :visited {text-decoration: none; color: #D84800;}
 #controls :active {color: #666 !important;}
 #controls :focus {outline: 1px dotted #227;}
 h1, h2, h3, h4 {font-size: 100%; margin: 0; padding: 0; font-weight: inherit;}
@@ -60,8 +61,10 @@ ul.urls {list-style: none; display: inline; margin: 0;}
 .note {display: none;}
 .external {border-bottom: 1px dotted gray;}
 html>body .external {border-bottom: none;}
-.external:after {content: " \274F"; font-size: smaller; color: #333;}
+.external:after {content: " \27AE"; font-size: smaller; color: #D84800;}
 
 .incremental, .incremental *, .incremental *:after {color: #DDE; visibility: visible;}
 img.incremental {visibility: hidden;}
 .slide .current {font-weight: bold;}
+
+.current.alert { display: block; text-align: center; color: #CC0000; font-size: 400%; margin-top: 100px; }

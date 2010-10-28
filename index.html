@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-<title>ScholarPress BuddyPress Courseware Slides for GeekMeet #13</title>
+<title>ScholarPress BuddyPress Courseware Slides for WordCamp Bucharest 2010</title>
 <!-- metadata -->
 <meta name="generator" content="S5" />
 <meta name="version" content="S5 1.2a2" />
@@ -40,14 +40,14 @@ img#me05 {top: 43px;left: 36px;}
 <div id="header"></div>
 <div id="footer">
 <h1>ScholarPress BuddyPress Courseware</h1>
-<h2><a href="http://stas.nerd.ro">http://stas.nerd.ro</a> &#8226; 26 Septembrie 2010</h2>
+<h2><a href="http://stas.nerd.ro">http://stas.nerd.ro</a> &#8226; 30 Octomber 2010, WordCamp Bucharest</h2>
 </div>
 </div>
 
 <div class="presentation">
 
 <div class="slide">
-<h1>O alternativă la Moodle</h1>
+<h1>BuddyPress &mdash; A social network for teaching</h1>
 <h3>Stas Sușcov</h3>
 <h4><a href="http://scholarpress.github.com/buddypress-courseware/" rel="external">ScholarPress BuddyPress Courseware</a></h4>
 <div class="handout"></div>
@@ -55,47 +55,25 @@ img#me05 {top: 43px;left: 36px;}
 
 
 <div class="slide">
-<h1>Cum ți-ar place să „înveți”?</h1>
+<h1>Houston, we have a problem!</h1>
 <ul class="incremental">
-    <li>Informal!</li>
-    <li>Folosind unelte și tehnologii deștepte</li>
-    <li>Cât mai transparent</li>
-    <li>Interactiv</li>
-    <li>Conectat</li>
-    <li>Pe scurt: dacă se poate, direct pe Facebook sau Hi5 (:</li>
-</ul>
-
-<div class="notes">
-<ul>
-    <li>Mai puțină birocrație, mai mult timp liber!</li>
-    <li>Fără overhead. Cât mai simplu! Web 2.0, UI/UX, Clica-clica</li>
-    <li>Datele trebuie să-mi aparțină și să am acces la ele</li>
-    <li>Feedback FTW!</li>
-    <li>Notificări, E-mail, Fluxuri RSS, iCalendar</li>
-</ul>
-</div>
-
-</div>
-
-
-<div class="slide">
-<h1>BuddyPress &mdash; Social Network In a Box</h1>
-<ul>
-    <li>O platformă pentru crearea unei rețele socială cu cod liber</li>
-    <li>Construită pe platforma <a href="http://wordpress.org" rel="external">WordPress</a>,
-        folosind <a href="http://bbpress.org" rel="external">bbPress</a>
+    <li class="alert">
+        All courseware sucks!
+        <sup>
+            <small>
+                <a href="http://chnm2010.thatcamp.org/05/19/all-courseware-sucks/" rel="external">Why?!</a>
+            </small>
+        </sup>
     </li>
-    <li>Simplu de instalat, folosit, cu cerințe minime!</li>
-    <li>Personalizabilă, localizabilă</li>
-    <li>O <a href="http://buddypress.org/community" rel="external">comunitate enormă</a></li>
-    <li>Documentație proastă, cod accesibil! (:</li>
 </ul>
 
 <div class="notes">
 <ul>
-    <li>Moștenește compatibilitatea cu o bună parte din modulele existente WordPress și bbPress</li>
-    <li>Început de Andy Peatling, de la început au fost câteva module care ulterior au fost integrate.</li>
-    <li>Target-ul actual e ex-utilizatorii ning.com și soluțiile pentru intranet-uri</li>
+    <li>And I'm here to sound the alarm!</li>
+    <li>How many people in here are teaching? I'm sure you can confirm this.</li>
+    <li>Our education workflow can be improved!</li>
+    <li>Real world example: How do we teach Africa?</li>
+    <li>Don't worry, I think I have a solution.</li>
 </ul>
 </div>
 
@@ -103,98 +81,114 @@ img#me05 {top: 43px;left: 36px;}
 
 
 <div class="slide">
-<h1>Începutul &mdash; GSoC, Jane, ScholarPress</h1>
+<h1>1<sup>st</sup> Let me introduce you <a href="http://buddypress.org" rel="external">BuddyPress</a></h1>
+<ul>
+    <li>
+        It's Free Software!
+        <a href="http://www.fsf.org/about/what-is-free-software" rel="external">Free as in speech!</a>
+    </li>
+    <li>
+        Built on <a href="http://wordpress.org" rel="external">WordPress</a>,
+        using <a href="http://bbpress.org" rel="external">bbPress</a>
+    </li>
+    <li>
+        As simple as installing
+        <a href="http://wordpress.org/extend/plugins/hello-dolly/" rel="external">Hello Dolly</a>,
+        needs as minimum requirements as WordPress has!
+    </li>
+    <li>Easily customizable, very hackable!</li>
+    <li>Awesome <a href="http://buddypress.org/community" rel="external">community</a>, really awesome!</li>
+    <li>Documentation doesn't matter how bad is, we offer support over IRC! ☺</li>
+</ul>
+
+<div class="notes">
+<ul>
+    <li>Shares the same codebase, plugins and developers.</li>
+    <li>Started by Andy Peatling, with a bunch of plugins, resulted into this.</li>
+    <li>Targets: ning.com ex-users, intranets, niche social networks</li>
+</ul>
+</div>
+
+</div>
+
+
+<div class="slide">
+<h1>2<sup>nd</sup> <a href="http://scholarpress.github.com/buddypress-courseware/" rel="external">ScholarPress Courseware</a></h1>
 <ul class="incremental show-first">
-    <li>De la început aveam fluturi în cap,
+    <li>The beginning, let there be light!
         <a href="http://socghop.appspot.com/gsoc/program/home/google/gsoc2010" rel="external" title="Google Summer of Code">GSoC</a>
-        era un challenge pentru mine
+        was a challenge!
         <ul class="incremental">
-            <li>De unde a venit idea: <a href="http://moodle.org" rel="external">Moodle</a> is so 90x</li>
-            <li><a href="http://jane.wordpress.com" rel="external">Jane<a> &ndash; coordonatoarea proiectului,
-                mentorii: <a href="http://clioweb.org" rel="external">Jeremy (Hungry) Boggs</a> &amp;
+            <li>How did it started? We brainstormed the idea that: <a href="http://moodle.org" rel="external">Moodle</a> is so 90x</li>
+            <li><a href="http://jane.wordpress.com" rel="external">Jane<a> &ndash; came up with some feedback,
+                and with two mentors: <a href="http://clioweb.org" rel="external">Jeremy (Hungry) Boggs</a> &amp;
                 <a href="http://teleogistic.net/" rel="external">Boone (Teh Bomb) Gorges</a>
             </li>
-            <li><a href="http://scholarpress.net" rel="external">ScholarPress</a> legacy &amp; courtesy</li>
+            <li>Explored <a href="http://scholarpress.net" rel="external">ScholarPress</a> ideas and needs</li>
+            <li>Studdied <a href="http://ocw.mit.edu/" rel="external"><abbr title="OpenCourseWare">OCW</abbr></a></li>
         </ul>
     </li>
-    <li>Conceptul final: <abbr title="Learning Management System">LMS</abbr> integrat peste rețeaua socială disponibilă deja</li>
-    <li><a href="http://ocw.mit.edu/" rel="external">
-        <abbr title="OpenCourseWare">OCW</abbr></a>: drept sursă de inspirație
+    <li>
+        The resulted concept: Get a <abbr title="Learning Management System">LMS</abbr> integrated over BuddyPress!
+        I mean <em>"Marry ScholarPress with BuddyPress"</em> ☺
+    </li>
+    <li>The final result: The first LMS over a social network.</li>
+</ul>
+
+<div class="notes">
+<ul>
+    <li>GSoC offers a chance, guys use it!</li>
+    <li>ScholarPress &ndash; a project started by some teachers/devs in US</li>
+    <li>Imagine a University driven on Facebook! Now this is possible.</li>
+    <li>LMS?! Teacing tools status in EU/US</li>
+    <li>
+        Wikiversity? Take
+        <a href="http://www.educause.edu/EDUCAUSE+Review/EDUCAUSEReviewMagazineVolume44/ManagingthePlatformHigherEduca/163579">this</a>
     </li>
 </ul>
-
-<div class="notes">
-<ul>
-    <li>Proiectul ro.wordpress.org</li>
-    <li>GSoC ca ocazie, own project vs. contributions thingy, in the end: money is (almost) nothing</li>
-    <li>ScholarPress &ndash; un proiect creat de un grup de „profi” din state</li>
-    <li>The awesome mentors</li>
-    <li>LMS?! Situația LMS-urilor în EU/US</li>
-</ul>
 </div>
 
 </div>
 
 
 <div class="slide">
-<h1>Detalii Tehnice</h1>
-<ul>
-    <li>Totul e WordPress</li>
-    <li>0 linii de cod SQL</li>
-    <li>Integrare la toate nivelele cu BuddyPress</li>
-    <li>~5000 de linii de cod</li>
-    <li>hackable &amp; extensibil</li>
-</ul>
-
-<div class="notes">
-<ul>
-    <li>WordPress API aka WebApps Dev Platform</li>
-    <li>Custom Post Types</li>
-    <li>Grup == Clasă, UI integrat, Activity Streams, Notificări, Forum</li>
-    <li>WVC (WordPress&ndash;View&ndash;Controller), hook-uri și filtre</li>
-</ul>
-</div>
-
-</div>
-
-
-<div class="slide">
-<h1>Lista de funcționalități</h1>
+<h1>What Courseware offers</h1>
 <ul class="incremental">
-    <li>Roluri: Stundenții și Profesorii</li>
-    <li>Pagină de start</li>
-    <li>Cursuri / Lecții / Ore</li>
-    <li>Teme
+    <li>Roles: Stundents & Teachers</li>
+    <li>Dashboards</li>
+    <li>Courses</li>
+    <li>Assignments
         <ul>
-            <li>Răspunsuri</li>
-            <li>Catalog / Note</li>
-            <li>Discuții, prin integrarea cu forumul</li>
+            <li>Replies</li>
+            <li>Gradebook</li>
+            <li>Forums integration, for asking your teacher</li>
         </ul>
     </li>
-    <li>Orar / Programări</li>
+    <li>Schedules</li>
     <li>Calendar</li>
-    <li>Bibliografie</li>
-    <li>Integrare cu restul funcționalităților rețelei</li>
+    <li>Bibliography</li>
+    <li>Activity Streams/Wall, Notifications and Profile Integration</li>
 </ul>
 
 <div class="notes">
     <ul>
-        <li>Pagini de start: pentru studenți și profesori</li>
-        <li>Editorul din WordPress? Da, perfect integrat!</li>
-        <li>Notificări la răspunsuri</li>
-        <li>Notificări la note</li>
-        <li>Notele pot fi încărcate printr-un fișier CSV</li>
-        <li>Un clic pentru a începe discuția cu studenții</li>
-        <li>Integrare cu iCalendar/Google Calendar </li>
-        <li>Integrare cu WordCar și ISBNdb</li>
-        <li>Colegii tăi/profii tăi pot urmări activitatea, se crează o interacțiune!</li>
+        <li>Dashboard, for sutdents and teachers</li>
+        <li>Remember WordPress editor, yeah you have it!</li>
+        <li>You get notified on student replies</li>
+        <li>Student gets notified when receiving a grade</li>
+        <li>Import grades from a CSV file</li>
+        <li>Get the feedback from students with a single click</li>
+        <li>Calendar has iCalendar/Google Calendar support, you will get your timetable on your iPhone</li>
+        <li>Get Bibgliography directly from WordCat and ISBNdb</li>
+        <li>Your friends will see your activity, teacher will know what you read, write and like!</li>
+        <li>All kind of usability fancyness</li>
     </ul>
 </div>
 
 </div>
 
 <div class="slide">
-<h1>Captură</h1>
+<h1>Dashboard screenshot</h1>
 <p style="text-align: center;">
 <img src="img/dashboard_student.png" alt="" title="Pagina de start a studentului" />
 </p>
@@ -202,12 +196,21 @@ img#me05 {top: 43px;left: 36px;}
 
 
 <div class="slide">
-<h1>Pe scurt</h1>
+<h1>Technical Details</h1>
 <ul>
-    <li>Simplu de instalat, utilizat și fără pretenții</li>
-    <li>Foarte bine integrat</li>
-    <li>Extensibil, cod liber, proiect activ!</li>
-    <li>Întrebări?!</li>
+    <li>Everything is WordPress</li>
+    <li>0 SQL lines of code, post types for the win</li>
+    <li>Full usage of BuddyPress API</li>
+    <li>~5000 lines of code</li>
+    <li>Hooks and actions for your plugins</li>
+</ul>
+
+<div class="notes">
+<ul>
+    <li>WordPress as WebApps Dev Platform</li>
+    <li>Custom Post Types</li>
+    <li>A group &rarr; a class, fully integrated UI, Activity Streams Api, Notifications/Emails, Forums</li>
+    <li>WVC (WordPress&ndash;View&ndash;Controller) hooks and filters is all you need!</li>
 </ul>
 </div>
 
@@ -215,14 +218,29 @@ img#me05 {top: 43px;left: 36px;}
 
 
 <div class="slide">
-<h1>Legături</h1>
+<h1>Summary</h1>
+<ul class="incremental">
+    <li>Easy to install, no brainfsck</li>
+    <li>Simple workflow, no overhead</li>
+    <li>Extensible, open source, actively developed (will likely become my thesis work)!</li>
+    <li class="alert">Questions?!</li>
+</ul>
+</div>
+
+</div>
+
+
+<div class="slide">
+<h1>Google it, or use these links</h1>
 <ul>
-    <li><a href="http://scholarpress.github.com/buddypress-courseware/" rel="external">Pagina proiectului</a></li>
-    <li><a href="http://github.com/scholarpress/buddypress-courseware/" rel="external">Proiectul pe GitHub</a>
-        (pentru dezvoltatori)
+    <li><a href="http://scholarpress.github.com/buddypress-courseware/" rel="external">Project webpage</a></li>
+    <li>
+        <a href="http://github.com/scholarpress/buddypress-courseware/" rel="external">Project on GitHub</a>
+        (for devs)
     </li>
-    <li><a href="http://buddypress.org/community/groups/buddypress-courseware/" rel="external">Pagina pe BuddyPress.org</a>
-        (asistență și discuții)
+    <li>
+        <a href="http://buddypress.org/community/groups/buddypress-courseware/" rel="external">Community/Support on BuddyPress.org</a>
+        (forums and feedback)
     </li>
 </ul>
 </div>
@@ -231,11 +249,11 @@ img#me05 {top: 43px;left: 36px;}
 
 
 <div class="slide">
-<h1>Contact</h1>
+<h1>Who told you this</h1>
 <ul>
-    <li>Jurnal: <a href="http://stas.nerd.ro" rel="external" >http://stas.nerd.ro</a></li>
-    <li>Tuităr: <a href="http://stas.nerd.ro" rel="external" >http://twitter.com/Suscov</a></li>
-    <li>Feisbuc: <a href="http://facebook.com/sushkov" rel="external" >http://facebook.com/sushkov</a></li>
+    <li>My Journal: <a href="http://stas.nerd.ro" rel="external" >http://stas.nerd.ro</a></li>
+    <li>I use to tweet: <a href="http://stas.nerd.ro" rel="external" >http://twitter.com/Suscov</a></li>
+    <li>I'm on Facebook: <a href="http://facebook.com/sushkov" rel="external" >http://facebook.com/sushkov</a></li>
 </ul>
 </div>
 
