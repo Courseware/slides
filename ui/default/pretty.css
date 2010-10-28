@@ -1,6 +1,6 @@
 /* Following are the presentation styles -- edit away! */
 
-html { background: #FFF url('/img/bp_logo.png') no-repeat 120% 160% fixed; }
+html { background: #FFF url('../../img/bp_logo.png') no-repeat 120% 160% fixed; }
 body {background: transparent; color: #444; font-size: 110%; font-family: "Arial" sans-serif;}
 :link, :visited {text-decoration: none; color: #D84800;}
 #controls :active {color: #666 !important;}
